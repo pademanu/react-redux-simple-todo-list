@@ -1,0 +1,46 @@
+button {
+    appearance: none;
+    background: none;
+    font-size: 32px;
+    padding-left: 12px;
+    padding-right: 12px;
+    outline: none;
+    border: 2px solid transparent;
+    color: rgb(112, 76, 182);
+    padding-bottom: 4px;
+    cursor: pointer;
+    background-color: rgba(112, 76, 182, 0.1);
+    border-radius: 2px;
+    transition: all 0.15s;
+    margin: 20px;
+}
+
+input {
+    font-size: 32px;
+    padding: 2px;
+    width: 64px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.App-header {
+    min-height: 10vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+}
+
+button:hover,
+button:focus {
+  border: 2px solid rgba(112, 76, 182, 0.4);
+}
+
+button:active {
+  background-color: rgba(112, 76, 182, 0.2);
+}
+
+input {
+    width: 500px;
+}
